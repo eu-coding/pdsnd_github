@@ -1,6 +1,11 @@
+# Load raw bikeshare data.
+
 ny = read.csv('new-york-city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv', na.strings = c("", "NA"))
+
+
+# Load ggplot2 library for graphing.
 
 library(ggplot2)
 
@@ -47,6 +52,7 @@ ggplot(aes(x = Gender, y = Trip.Duration/60), data = subset(chi, !is.na(Gender))
 by(chi$Trip.Duration/60, chi$Gender, summary)
 
 ### When looking at measures of central tendency, it looks like there was a difference, with females having a greater trip duration than males. Specifically, the means were about 13 minutes to 11, and the medians about 11 minutes to 9.  This pattern also holds up when we compare the 1st quartiles between genders (females 7 minutes, males 6 minutes) or the 3rd quartiles (females 17 minutes, males 14 minutes).
+
 
 ## 3. For Washington, of the rentals lasting over 24 hours, which start station was the most popular?
 
