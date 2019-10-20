@@ -29,7 +29,6 @@ for (year in nineties_years) {
   i = i+1
   }
 year_trip_matrix = cbind(nineties_years, trip_count_by_birth_year)
-print(year_trip_matrix)
 
 # Find the index (row) in the matrix where the maximum trip count value is, then return the corresponding birth year at that index (row).
 max_index = which(year_trip_matrix[,2] == max(trip_count_by_birth_year))
@@ -70,7 +69,6 @@ for (station in start_stations) {
     unique_station_list[i] = station
     i = i + 1}}
 station_count_matrix = cbind(unique_station_list, rental_count_per_station)
-print(station_count_matrix)
 
 # Find where in the matrix the entries with the max rental counts are located, then print the corresponding station names.
 max_indicies = which(station_count_matrix[,2] == max(rental_count_per_station))
