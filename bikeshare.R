@@ -63,7 +63,6 @@ for (station in start_stations) {
     unique_station_list[i] = station
     i = i + 1}}
 station_count_matrix = cbind(unique_station_list, rental_count_per_station)
-print(station_count_matrix)
 
 # Find where in the matrix the entries with the max rental counts are located, then print the corresponding station names.
 max_indicies = which(station_count_matrix[,2] == max(rental_count_per_station))
