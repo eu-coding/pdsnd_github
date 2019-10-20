@@ -10,8 +10,11 @@ the Programming for Data Science with R Nanodegree Program.
 
 ### Files used
 Files included in repository: bikeshare.R, README.md, .gitignore
+
 (Files utilized in bikeshare.R analysis but not included in repository:
 new-york-city.csv, washington.csv, chicago.csv)
 
 ### Credits
 Repository template forked from Udacity: https://github.com/udacity/pdsnd_github.
+
+Raw bikeshare data provided by Motivate via Udacity.
