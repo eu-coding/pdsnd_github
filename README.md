@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+October 19th, 2019
 
-### Project Title
-Replace the Project Title
+### Bikeshare Analysis in R
 
-### Description
-Describe what your project is about and what it does
+This project analyzes bikeshare data for New York City, Washington DC, and Chicago.
+
+Note: the bikeshare file is in R, not Python, since I am completing this project from
+the Programming for Data Science with R Nanodegree Program.
 
 ### Files used
-Include the files used
+Files included in repository: bikeshare.R, README.md, .gitignore
+(Files utilized in bikeshare.R analysis but not included in repository:
+new-york-city.csv, washington.csv, chicago.csv)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Repository template forked from Udacity: https://github.com/udacity/pdsnd_github.
