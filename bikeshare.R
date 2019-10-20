@@ -24,7 +24,6 @@ for (year in nineties_years) {
   i = i+1
   }
 year_trip_matrix = cbind(nineties_years, trip_count_by_birth_year)
-print(year_trip_matrix)
 
 # Find the index (row) in the matrix where the maximum trip count value is, then return the corresponding birth year at that index (row).
 max_index = which(year_trip_matrix[,2] == max(trip_count_by_birth_year))
